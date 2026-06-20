@@ -1,0 +1,202 @@
+species:
+  - name: Boj
+    jobs:
+      - start: "05-01"
+        type: "Mantención superficial"
+        instructions: "Recortar puntas y caras exteriores. No entrar a madera vieja ni abrir huecos."
+        notes: "Repetir solo si pierde forma."
+      - start: "01-04"
+        type: "Poda suave"
+        instructions: "Ordenar volumen y eliminar ramas secas."
+      - start: "01-08"
+        type: "Estructural"
+        instructions: "Corregir forma general, siempre con cortes moderados."
+
+  - name: Lonicera nitida
+    jobs:
+      - start: "05-01"
+        type: "Mantención formal"
+        instructions: "Recorte superficial de contención."
+      - start: "01-04"
+        type: "Poda suave"
+        instructions: "Ordenar bordes y sacar material seco."
+      - start: "01-08"
+        type: "Estructural"
+        instructions: "Compactar y recuperar forma."
+
+  - name: Pitosporo nigricans
+    jobs:
+      - start: "05-01"
+        type: "Mantención"
+        instructions: "Rebajar puntas largas y ordenar silueta."
+      - start: "01-04"
+        type: "Poda suave"
+        instructions: "Solo forma. No poda fuerte por riesgo de rebrote tierno antes de heladas."
+      - start: "01-08"
+        type: "Reducción de volumen"
+        instructions: "Bajar volumen máximo un tercio. Evitar dejarlo pelado por dentro."
+
+  - name: Rosas
+    jobs:
+      - start: "05-01"
+        type: "Limpieza"
+        instructions: "Eliminar flores secas y ramas enfermas."
+      - start: "10-07"
+        type: "Inicio poda"
+        instructions: "Preparar estructura, sacar ramas muertas o cruzadas."
+      - start: "01-08"
+        type: "Poda fuerte"
+        instructions: "Dejar estructura abierta, ramas sanas y bien orientadas. Eliminar madera vieja y débil."
+
+  - name: Hipérico
+    jobs:
+      - start: "01-02"
+        type: "Post floración"
+        instructions: "Rebaje leve para mantener compacto."
+      - start: "10-03"
+        type: "Rebaje moderado"
+        instructions: "Reducir 20–40%, abrir interior y eliminar ramas envejecidas."
+      - start: "01-08"
+        type: "Rejuvenecimiento"
+        instructions: "Poda más fuerte si está abierto o leñoso. Florece en madera nueva."
+
+  - name: Gaura
+    jobs:
+      - start: "01-02"
+        type: "Orden"
+        instructions: "Rebajar varas largas y material seco."
+      - start: "10-03"
+        type: "Rebaje fuerte"
+        instructions: "Bajar para renovar mata y evitar que se abra."
+      - start: "01-11"
+        type: "Control de volumen"
+        instructions: "Ordenar sin cortar excesivamente si está en flor."
+
+  - name: Spiraea japonica
+    jobs:
+      - start: "10-03"
+        type: "Rebaje moderado"
+        instructions: "Bajar volumen y eliminar ramas débiles."
+      - start: "01-08"
+        type: "Poda fuerte"
+        instructions: "Rebajar bajo para renovar la planta y mejorar floración."
+
+  - name: Spiraea thunbergii / cantoniensis
+    jobs:
+      - start: "15-09"
+        type: "Post floración"
+        instructions: "Ralear ramas viejas desde la base. No podar en invierno porque florece en madera vieja."
+
+  - name: Abelia grandiflora / nana
+    jobs:
+      - start: "10-03"
+        type: "Rebaje moderado"
+        instructions: "Reducir 20–30%, eliminar ramas abiertas y desordenadas."
+      - start: "01-08"
+        type: "Poda estructural"
+        instructions: "Compactar y renovar sin cortar toda la planta al ras."
+
+  - name: Hortensias
+    jobs:
+      - start: "01-04"
+        type: "Limpieza"
+        instructions: "Eliminar flores secas. No rebajar fuerte sin confirmar variedad."
+
+  - name: Helleboros
+    jobs:
+      - start: "01-04"
+        type: "Limpieza"
+        instructions: "Retirar hojas viejas, feas o enfermas desde la base."
+
+  - name: Crocosmias
+    jobs:
+      - start: "15-05"
+        type: "Corte a ras"
+        instructions: "Cortar follaje seco a ras cuando ya esté feo. Dejar descansar la mata."
+
+  - name: Manzanos
+    jobs:
+      - start: "10-07"
+        type: "Poda de fructificación"
+        instructions: "Eliminar chupones, ramas cruzadas, ramas hacia el centro y exceso de densidad. Mantener copa abierta."
+
+  - name: Perales
+    jobs:
+      - start: "10-07"
+        type: "Poda de fructificación"
+        instructions: "Eliminar chupones y ramas mal orientadas. Mantener estructura abierta y equilibrada."
+
+  - name: Cerezos / guindos
+    jobs:
+      - start: "10-07"
+        type: "Poda ligera"
+        instructions: "Solo limpieza y correcciones menores. Evitar cortes grandes."
+
+  - name: Avellano morado
+    jobs:
+      - start: "10-07"
+        type: "Formación"
+        instructions: "Eliminar brotes basales no deseados, ramas cruzadas y madera débil."
+
+  - name: Stipa tenuissima
+    jobs:
+      - start: "15-07"
+        type: "Corte a ras"
+        instructions: "Cortar a 5–10 cm del suelo. Si está sana, se puede peinar, pero en Pumalal conviene renovar."
+
+  - name: Acer japonico
+    jobs:
+      - start: "15-07"
+        type: "Sanitaria mínima"
+        instructions: "Solo ramas secas o mal orientadas. Evitar poda ornamental fuerte."
+
+  - name: Liquidámbar
+    jobs:
+      - start: "15-07"
+        type: "Sanitaria mínima"
+        instructions: "Eliminar ramas secas, rotas o cruzadas. No alterar estructura natural."
+
+  - name: Magnolio
+    jobs:
+      - start: "15-07"
+        type: "Sanitaria mínima"
+        instructions: "Solo limpieza. Evitar cortes grandes."
+
+  - name: Nothofagus obliqua
+    jobs:
+      - start: "15-07"
+        type: "Sanitaria excepcional"
+        instructions: "No requiere poda regular. Solo ramas secas, peligrosas o con mala inserción."
+
+  - name: Choisya ternata
+    jobs:
+      - start: "15-09"
+        type: "Post floración"
+        instructions: "Poda de forma y contención después de floración. No podar fuerte en invierno."
+
+  - name: Azaleas
+    jobs:
+      - start: "15-09"
+        type: "Post floración"
+        instructions: "Limpiar y dar forma después de florecer. No podar antes porque elimina botones."
+
+  - name: Chaenomeles
+    jobs:
+      - start: "15-09"
+        type: "Post floración"
+        instructions: "Eliminar ramas viejas o cruzadas después de floración. No podar en invierno."
+
+  - name: Aucuba japonica
+    jobs:
+      - start: "15-09"
+        type: "Poda suave"
+        instructions: "Recortar hojas y ramas desordenadas. Evitar poda estructural fuerte."
+
+  - name: Libertia chilensis
+    jobs:
+      - start: "10-03"
+        type: "Limpieza"
+        instructions: "Retirar hojas viejas o secas desde la base."
+      - start: "15-09"
+        type: "División / orden"
+        instructions: "Dividir o ordenar mata solo si está muy densa o envejecida."
