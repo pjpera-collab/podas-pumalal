@@ -1,4 +1,4 @@
 streamlit
 pyyaml
 requests
-ics
+pandas

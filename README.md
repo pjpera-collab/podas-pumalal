@@ -1,31 +1,34 @@
-# Podas Pumalal - Web App
+# Podas Pumalal Pro v2
 
-App simple para iPhone con calendario de poda por especie, clima local y alerta de heladas.
+App Streamlit para manejo anual del jardín en Pumalal.
 
-## Cómo usar en computador
+Incluye:
+- poda
+- fertilización
+- sanidad preventiva / fungicidas
+- siembra
+- trasplante/división
+- ajuste por heladas y lluvia
+- calendario .ics con avisos para iPhone/Google/Apple Calendar
+- biblioteca de especies comunes en Chile
+- formulario para agregar especies
+- registro manual descargable CSV
 
-1. Instalar Python.
-2. Abrir esta carpeta.
-3. Ejecutar:
+## Cómo actualizar tu app actual
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+1. Entra a GitHub en tu repositorio `podas-pumalal`.
+2. Reemplaza:
+   - app.py
+   - species.yaml
+   - requirements.txt
+3. Commit changes.
+4. Streamlit se actualiza solo.
 
-## Cómo usar en iPhone
+## Seguridad en frutales
 
-La forma más fácil es subir estos archivos a GitHub y publicarlos en Streamlit Community Cloud.
-Luego abres la URL en Safari y eliges:
-
-Compartir → Agregar a pantalla de inicio.
-
-## Ubicación usada
-
-Pumalal:
-- Latitud: -38.6525463
-- Longitud: -72.5121981
-
-## Clima
-
-Usa Open-Meteo, sin API key.
+La app no entrega dosis ni mezclas de plaguicidas.
+Para fruta comestible:
+- usar solo productos autorizados para el cultivo
+- revisar etiqueta SAG
+- respetar carencia
+- no cosechar antes del plazo de carencia del producto exacto

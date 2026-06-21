@@ -1,202 +1,1330 @@
+metadata:
+  version: Pumalal Pro v2
+  location: Pumalal, La Araucanía, Chile
+  methodology: 'Base inicial curada: fuentes chilenas primero (Jardinería en Chile, INIA, SAG), luego RHS/extensión universitaria.
+    Las fechas se ajustan al clima frío-húmedo de Pumalal: lluvia, heladas, rocío, presión de hongos y seguridad de consumo
+    en frutales.'
+  sources:
+  - name: Jardinería en Chile, M. Gabriela Saldías, Universidad Central
+    role: 'Base chilena: poda, plagas, propagación, bulbosas, acidófilas, rosales y coníferas'
+    url: archivo subido en ChatGPT
+  - name: INIA Chile
+    role: Frutales, enfermedades y ventanas preventivas
+    url: https://biblioteca.inia.cl
+  - name: SAG Chile
+    role: Plaguicidas autorizados, etiquetas y carencias
+    url: https://www.sag.gob.cl
+  - name: RHS
+    role: Poda ornamental, rosales, semillas y sanidad cultural
+    url: https://www.rhs.org.uk
+  - name: Raúl Silva Vargas
+    role: Jardinería chilena, especies ornamentales y árboles; referencia bibliográfica para ampliar base
+    url: 'obras: Principios de jardinería, Árboles, Las cuatro estaciones, 500 preguntas sobre el jardín'
+  - name: Gardens Illustrated
+    role: Referencia editorial de alto nivel; apoyo estético y horticultural, no normativa fitosanitaria
+    url: https://www.gardensillustrated.com
 species:
-  - name: Boj
-    jobs:
-      - start: "05-01"
-        type: "Mantención superficial"
-        instructions: "Recortar puntas y caras exteriores. No entrar a madera vieja ni abrir huecos."
-        notes: "Repetir solo si pierde forma."
-      - start: "01-04"
-        type: "Poda suave"
-        instructions: "Ordenar volumen y eliminar ramas secas."
-      - start: "01-08"
-        type: "Estructural"
-        instructions: "Corregir forma general, siempre con cortes moderados."
-
-  - name: Lonicera nitida
-    jobs:
-      - start: "05-01"
-        type: "Mantención formal"
-        instructions: "Recorte superficial de contención."
-      - start: "01-04"
-        type: "Poda suave"
-        instructions: "Ordenar bordes y sacar material seco."
-      - start: "01-08"
-        type: "Estructural"
-        instructions: "Compactar y recuperar forma."
-
-  - name: Pitosporo nigricans
-    jobs:
-      - start: "05-01"
-        type: "Mantención"
-        instructions: "Rebajar puntas largas y ordenar silueta."
-      - start: "01-04"
-        type: "Poda suave"
-        instructions: "Solo forma. No poda fuerte por riesgo de rebrote tierno antes de heladas."
-      - start: "01-08"
-        type: "Reducción de volumen"
-        instructions: "Bajar volumen máximo un tercio. Evitar dejarlo pelado por dentro."
-
-  - name: Rosas
-    jobs:
-      - start: "05-01"
-        type: "Limpieza"
-        instructions: "Eliminar flores secas y ramas enfermas."
-      - start: "10-07"
-        type: "Inicio poda"
-        instructions: "Preparar estructura, sacar ramas muertas o cruzadas."
-      - start: "01-08"
-        type: "Poda fuerte"
-        instructions: "Dejar estructura abierta, ramas sanas y bien orientadas. Eliminar madera vieja y débil."
-
-  - name: Hipérico
-    jobs:
-      - start: "01-02"
-        type: "Post floración"
-        instructions: "Rebaje leve para mantener compacto."
-      - start: "10-03"
-        type: "Rebaje moderado"
-        instructions: "Reducir 20–40%, abrir interior y eliminar ramas envejecidas."
-      - start: "01-08"
-        type: "Rejuvenecimiento"
-        instructions: "Poda más fuerte si está abierto o leñoso. Florece en madera nueva."
-
-  - name: Gaura
-    jobs:
-      - start: "01-02"
-        type: "Orden"
-        instructions: "Rebajar varas largas y material seco."
-      - start: "10-03"
-        type: "Rebaje fuerte"
-        instructions: "Bajar para renovar mata y evitar que se abra."
-      - start: "01-11"
-        type: "Control de volumen"
-        instructions: "Ordenar sin cortar excesivamente si está en flor."
-
-  - name: Spiraea japonica
-    jobs:
-      - start: "10-03"
-        type: "Rebaje moderado"
-        instructions: "Bajar volumen y eliminar ramas débiles."
-      - start: "01-08"
-        type: "Poda fuerte"
-        instructions: "Rebajar bajo para renovar la planta y mejorar floración."
-
-  - name: Spiraea thunbergii / cantoniensis
-    jobs:
-      - start: "15-09"
-        type: "Post floración"
-        instructions: "Ralear ramas viejas desde la base. No podar en invierno porque florece en madera vieja."
-
-  - name: Abelia grandiflora / nana
-    jobs:
-      - start: "10-03"
-        type: "Rebaje moderado"
-        instructions: "Reducir 20–30%, eliminar ramas abiertas y desordenadas."
-      - start: "01-08"
-        type: "Poda estructural"
-        instructions: "Compactar y renovar sin cortar toda la planta al ras."
-
-  - name: Hortensias
-    jobs:
-      - start: "01-04"
-        type: "Limpieza"
-        instructions: "Eliminar flores secas. No rebajar fuerte sin confirmar variedad."
-
-  - name: Helleboros
-    jobs:
-      - start: "01-04"
-        type: "Limpieza"
-        instructions: "Retirar hojas viejas, feas o enfermas desde la base."
-
-  - name: Crocosmias
-    jobs:
-      - start: "15-05"
-        type: "Corte a ras"
-        instructions: "Cortar follaje seco a ras cuando ya esté feo. Dejar descansar la mata."
-
-  - name: Manzanos
-    jobs:
-      - start: "10-07"
-        type: "Poda de fructificación"
-        instructions: "Eliminar chupones, ramas cruzadas, ramas hacia el centro y exceso de densidad. Mantener copa abierta."
-
-  - name: Perales
-    jobs:
-      - start: "10-07"
-        type: "Poda de fructificación"
-        instructions: "Eliminar chupones y ramas mal orientadas. Mantener estructura abierta y equilibrada."
-
-  - name: Cerezos / guindos
-    jobs:
-      - start: "10-07"
-        type: "Poda ligera"
-        instructions: "Solo limpieza y correcciones menores. Evitar cortes grandes."
-
-  - name: Avellano morado
-    jobs:
-      - start: "10-07"
-        type: "Formación"
-        instructions: "Eliminar brotes basales no deseados, ramas cruzadas y madera débil."
-
-  - name: Stipa tenuissima
-    jobs:
-      - start: "15-07"
-        type: "Corte a ras"
-        instructions: "Cortar a 5–10 cm del suelo. Si está sana, se puede peinar, pero en Pumalal conviene renovar."
-
-  - name: Acer japonico
-    jobs:
-      - start: "15-07"
-        type: "Sanitaria mínima"
-        instructions: "Solo ramas secas o mal orientadas. Evitar poda ornamental fuerte."
-
-  - name: Liquidámbar
-    jobs:
-      - start: "15-07"
-        type: "Sanitaria mínima"
-        instructions: "Eliminar ramas secas, rotas o cruzadas. No alterar estructura natural."
-
-  - name: Magnolio
-    jobs:
-      - start: "15-07"
-        type: "Sanitaria mínima"
-        instructions: "Solo limpieza. Evitar cortes grandes."
-
-  - name: Nothofagus obliqua
-    jobs:
-      - start: "15-07"
-        type: "Sanitaria excepcional"
-        instructions: "No requiere poda regular. Solo ramas secas, peligrosas o con mala inserción."
-
-  - name: Choisya ternata
-    jobs:
-      - start: "15-09"
-        type: "Post floración"
-        instructions: "Poda de forma y contención después de floración. No podar fuerte en invierno."
-
-  - name: Azaleas
-    jobs:
-      - start: "15-09"
-        type: "Post floración"
-        instructions: "Limpiar y dar forma después de florecer. No podar antes porque elimina botones."
-
-  - name: Chaenomeles
-    jobs:
-      - start: "15-09"
-        type: "Post floración"
-        instructions: "Eliminar ramas viejas o cruzadas después de floración. No podar en invierno."
-
-  - name: Aucuba japonica
-    jobs:
-      - start: "15-09"
-        type: "Poda suave"
-        instructions: "Recortar hojas y ramas desordenadas. Evitar poda estructural fuerte."
-
-  - name: Libertia chilensis
-    jobs:
-      - start: "10-03"
-        type: "Limpieza"
-        instructions: "Retirar hojas viejas o secas desde la base."
-      - start: "15-09"
-        type: "División / orden"
-        instructions: "Dividir o ordenar mata solo si está muy densa o envejecida."
+- name: Rosas
+  latin: Rosa spp.
+  group: arbusto
+  active: true
+  profile: Alta presión de hongos en Pumalal. Manejo preventivo en primavera-verano; no esperar síntomas si históricamente
+    colapsan sin fungicida.
+  sources:
+  - 'Jardinería en Chile: rosales'
+  - 'RHS: roses'
+  - Adaptación Pumalal
+  tasks:
+  - start: 01-08
+    category: poda
+    type: poda fuerte de invierno
+    instructions: Abrir centro, eliminar madera enferma, cruzada o débil; dejar estructura aireada.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 10
+    frost_limit_c: -1
+    edible_warning: false
+    notes: ''
+  - start: 05-08
+    category: sanidad preventiva
+    type: post poda
+    instructions: Revisar y activar protección preventiva post-poda si hay humedad o lluvias. No aplicar antes de lluvia fuerte.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: inicio brotación
+    instructions: Fertilizar al comenzar crecimiento activo; evitar exceso de nitrógeno si hay mucha humedad.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-09
+    category: sanidad preventiva
+    type: programa primavera
+    instructions: Programa preventivo contra mancha negra, oídio y roya. Frecuencia según producto, lluvia y presión del jardín.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-11
+    category: sanidad preventiva
+    type: programa verano húmedo
+    instructions: Mantener programa preventivo si hay rocío, riego frecuente o historial fuerte de hongos.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-12
+    category: poda
+    type: mantención
+    instructions: Eliminar flores secas y material enfermo; mejorar ventilación sin poda fuerte.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Manzanos
+  latin: Malus domestica
+  group: frutal
+  active: true
+  profile: Frutal comestible. Sanidad preventiva desde invierno/brotación; carencia siempre según etiqueta SAG.
+  sources: &id001
+  - INIA Chile
+  - 'SAG Chile: etiquetas y carencias'
+  - RHS / extensión universitaria
+  - Adaptación Pumalal
+  tasks:
+  - start: 10-07
+    category: poda
+    type: fructificación
+    instructions: Eliminar chupones, ramas cruzadas y exceso de densidad; mantener copa abierta.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 10
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: tratamiento invierno
+    instructions: Ventana sanitaria en reposo. Usar solo producto autorizado para manzano y registrar carencia.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 10-09
+    category: sanidad preventiva
+    type: yema hinchada / brotación
+    instructions: Revisar brotación y presión de lluvia; activar protección si el año viene húmedo.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 15-10
+    category: sanidad preventiva
+    type: floración / cuaja
+    instructions: Vigilar enfermedades en floración/cuaja; cuidar compatibilidad con polinizadores y etiqueta.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: inicio primavera
+    instructions: Fertilización moderada según vigor.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Perales
+  latin: Pyrus communis
+  group: frutal
+  active: true
+  profile: Manejo similar a manzano; fruta comestible con carencia obligatoria.
+  sources: *id001
+  tasks:
+  - start: 10-07
+    category: poda
+    type: fructificación
+    instructions: Eliminar chupones, ramas hacia el centro y madera débil.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 10
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: tratamiento invierno
+    instructions: Protección preventiva en reposo si hay antecedentes sanitarios.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 10-09
+    category: sanidad preventiva
+    type: brotación
+    instructions: Refuerzo al inicio de brotación si hay lluvias; respetar etiqueta y carencia.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: inicio primavera
+    instructions: Fertilización moderada según vigor.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Cerezos / guindos
+  latin: Prunus avium / Prunus cerasus
+  group: frutal
+  active: true
+  profile: Carozos sensibles a enfermedades de madera/bacteriosis en clima húmedo. Evitar cortes grandes con lluvia o frío.
+  sources: *id001
+  tasks:
+  - start: 10-07
+    category: poda
+    type: ligera sanitaria
+    instructions: Solo limpieza y correcciones menores; evitar cortes grandes.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 8
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: invierno / reposo
+    instructions: Ventana preventiva si hay historial; producto autorizado para cerezo/guindo.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 05-09
+    category: sanidad preventiva
+    type: salida de invierno
+    instructions: Momento clave antes de yema hinchada si corresponde.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+  - start: 20-09
+    category: sanidad preventiva
+    type: floración
+    instructions: Vigilar lluvia en floración y pudriciones; cuidar polinizadores y etiqueta.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Hipérico
+  latin: Hypericum spp.
+  group: arbusto
+  active: true
+  profile: Florece en madera nueva; tolera rebaje y renovación.
+  sources: &id002
+  - Jardinería en Chile (Universidad Central)
+  - RHS / extensión universitaria
+  - Adaptación Pumalal
+  tasks:
+  - start: 10-03
+    category: poda
+    type: rebaje moderado
+    instructions: Reducir 20–40%, abrir interior y sacar ramas envejecidas.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-08
+    category: poda
+    type: rejuvenecimiento
+    instructions: Rebaje fuerte si está leñoso o abierto.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Spiraea japonica
+  latin: Spiraea japonica
+  group: arbusto
+  active: true
+  profile: Florece en madera nueva; conviene renovación anual.
+  sources: *id002
+  tasks:
+  - start: 10-03
+    category: poda
+    type: rebaje moderado
+    instructions: Bajar volumen y eliminar ramas débiles.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-08
+    category: poda
+    type: poda fuerte
+    instructions: Rebajar bajo para renovar y mejorar floración.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Spiraea thunbergii / cantoniensis
+  latin: Spiraea thunbergii / S. cantoniensis
+  group: arbusto
+  active: true
+  profile: Florecen en madera vieja; poda después de floración.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Ralear ramas viejas desde la base y conservar madera florífera.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Abelia grandiflora / nana
+  latin: Abelia x grandiflora
+  group: arbusto
+  active: true
+  profile: Semipersistente; responde a compactación moderada.
+  sources: *id002
+  tasks:
+  - start: 10-03
+    category: poda
+    type: rebaje moderado
+    instructions: Reducir 20–30%, eliminar ramas abiertas.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-08
+    category: poda
+    type: estructural
+    instructions: Compactar sin cortar toda la planta al ras.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Pitosporo nigricans
+  latin: Pittosporum tenuifolium 'Nigricans'
+  group: arbusto
+  active: true
+  profile: Persistente; evitar poda severa antes de heladas.
+  sources: *id002
+  tasks:
+  - start: 01-04
+    category: poda
+    type: forma suave
+    instructions: Ordenar puntas; no provocar rebrote tierno antes del frío.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-08
+    category: poda
+    type: reducción de volumen
+    instructions: Reducir máximo un tercio; no dejar pelado por dentro.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Boj / Lonicera nitida
+  latin: Buxus sempervirens / Lonicera nitida
+  group: arbusto
+  active: true
+  profile: 'Setos y formas: podas superficiales y frecuentes.'
+  sources: *id002
+  tasks:
+  - start: 05-01
+    category: poda
+    type: mantención superficial
+    instructions: Recorte de caras exteriores y puntas.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-04
+    category: poda
+    type: mantención suave
+    instructions: Ordenar bordes y retirar seco.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-08
+    category: poda
+    type: estructura
+    instructions: Recuperar forma sin cortes excesivamente profundos.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Choisya ternata
+  latin: Choisya ternata
+  group: arbusto
+  active: true
+  profile: Floración primaveral; podar después de floración.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Contención y forma; no podar fuerte en invierno.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: inicio crecimiento
+    instructions: Fertilización suave si el follaje lo pide.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Azaleas
+  latin: Rhododendron spp.
+  group: acidófila
+  active: true
+  profile: Floración primaveral; no podar antes de florecer.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Limpiar y dar forma después de floración; no eliminar botones.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: acidófilas
+    instructions: Fertilizar con criterio de acidófilas al inicio de crecimiento activo.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Chaenomeles
+  latin: Chaenomeles speciosa
+  group: arbusto
+  active: true
+  profile: Florece en madera vieja; poda después de floración.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Eliminar ramas viejas/cruzadas y conservar madera florífera.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Aucuba japonica
+  latin: Aucuba japonica
+  group: arbusto
+  active: true
+  profile: Persistente de sombra; poda suave.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: poda suave
+    instructions: Recortar ramas desordenadas y hojas dañadas.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Crocosmias
+  latin: Crocosmia spp.
+  group: bulbosa
+  active: true
+  profile: Geófita; corte de follaje seco y división si se satura.
+  sources: *id002
+  tasks:
+  - start: 15-05
+    category: poda
+    type: corte a ras
+    instructions: Cortar follaje seco a ras cuando esté feo.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-09
+    category: trasplante/división
+    type: división si saturada
+    instructions: Dividir matas densas si disminuye floración.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Stipa tenuissima
+  latin: Nassella tenuissima
+  group: gramínea
+  active: true
+  profile: Gramínea; renovación anual o peinado según estado.
+  sources: *id002
+  tasks:
+  - start: 15-07
+    category: poda
+    type: corte a ras
+    instructions: 'Cortar a 5–10 cm; alternativa: peinar si está sana.'
+    priority: media
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Libertia chilensis
+  latin: Libertia chilensis
+  group: perenne/herbácea
+  active: true
+  profile: Perenne nativa; manejo más que poda.
+  sources: *id002
+  tasks:
+  - start: 10-03
+    category: poda
+    type: limpieza
+    instructions: Retirar hojas viejas o secas desde la base.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-09
+    category: trasplante/división
+    type: división si necesario
+    instructions: Dividir u ordenar si la mata está envejecida.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Acer japonico
+  latin: Acer palmatum / japonicum
+  group: árbol
+  active: true
+  profile: Árbol ornamental de estructura; poda mínima.
+  sources: *id002
+  tasks:
+  - start: 15-07
+    category: poda
+    type: sanitaria mínima
+    instructions: Solo ramas secas o mal orientadas; evitar poda ornamental fuerte.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Liquidámbar
+  latin: Liquidambar styraciflua
+  group: árbol
+  active: true
+  profile: Árbol de estructura natural; poda mínima.
+  sources: *id002
+  tasks:
+  - start: 15-07
+    category: poda
+    type: sanitaria mínima
+    instructions: Eliminar ramas secas, rotas o cruzadas.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Magnolio
+  latin: Magnolia spp.
+  group: árbol
+  active: true
+  profile: Árbol de floración y estructura; poda mínima.
+  sources: *id002
+  tasks:
+  - start: 15-07
+    category: poda
+    type: sanitaria mínima
+    instructions: Solo limpieza; evitar cortes grandes.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Nothofagus obliqua
+  latin: Nothofagus obliqua
+  group: árbol nativo
+  active: true
+  profile: Roble nativo; no requiere poda regular.
+  sources: *id002
+  tasks:
+  - start: 15-07
+    category: poda
+    type: sanitaria excepcional
+    instructions: Solo ramas secas, peligrosas o con mala inserción.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Avellano morado
+  latin: Corylus maxima 'Purpurea'
+  group: árbol/arbusto
+  active: true
+  profile: Forma arbustiva o arbolito; controlar brotes basales.
+  sources: *id002
+  tasks:
+  - start: 10-07
+    category: poda
+    type: formación
+    instructions: Eliminar brotes basales no deseados, ramas cruzadas y madera débil.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Siembras de flores anuales
+  latin: mezclas ornamentales
+  group: semillas/flores
+  active: true
+  profile: Módulo genérico para mezclas de flores. En Pumalal, siembra principal de primavera; otoño solo rústicas.
+  sources:
+  - 'Jardinería en Chile: cubresuelos y flores'
+  - 'RHS: hardy annuals'
+  - Adaptación Pumalal
+  tasks:
+  - start: 15-09
+    category: siembra
+    type: siembra primavera
+    instructions: Siembra principal tras lo peor de las heladas. Cama fina, húmeda y sin malezas.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 1
+    edible_warning: false
+    notes: ''
+  - start: 15-03
+    category: siembra
+    type: otoño rústicas
+    instructions: Solo anuales rústicas que toleren frío; proteger de lluvias fuertes y encharcamiento.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 15
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-10
+    category: fertilización
+    type: arranque suave
+    instructions: Fertilización suave cuando plántulas estén establecidas.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Hortensias
+  latin: Hydrangea macrophylla
+  group: arbusto
+  active: false
+  profile: Poda depende de variedad; en jardín común conviene limpieza prudente.
+  sources: *id002
+  tasks:
+  - start: 01-08
+    category: poda
+    type: limpieza prudente
+    instructions: Eliminar flores secas y madera débil; no cortar todo si no se sabe si florece en madera vieja.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: acidófila/moderada
+    instructions: Fertilizar al inicio de crecimiento; ajustar pH si se maneja color.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Camelias
+  latin: Camellia japonica
+  group: acidófila
+  active: false
+  profile: Poda ligera post floración; acidófila.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Dar forma muy suave después de floración.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: acidófila
+    instructions: Fertilizar suave al inicio de crecimiento activo.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Lavanda
+  latin: Lavandula spp.
+  group: arbusto
+  active: false
+  profile: Requiere drenaje y poda que no entre a madera vieja.
+  sources: *id002
+  tasks:
+  - start: 15-10
+    category: poda
+    type: post floración
+    instructions: Rebajar brotes florales y mantener compacta sin cortar madera vieja.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-09
+    category: fertilización
+    type: mínima
+    instructions: Evitar exceso de fertilizante y humedad.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Salvias ornamentales
+  latin: Salvia spp.
+  group: perenne/herbácea
+  active: false
+  profile: Poda de renovación tras frío y post floración.
+  sources: *id002
+  tasks:
+  - start: 01-08
+    category: poda
+    type: renovación
+    instructions: Retirar tallos secos y renovar estructura cuando pase lo peor del frío.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-11
+    category: poda
+    type: post floración
+    instructions: Rebaje suave para prolongar forma y floración.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Agapantos
+  latin: Agapanthus spp.
+  group: perenne/herbácea
+  active: false
+  profile: Manejo de varas florales y división.
+  sources: *id002
+  tasks:
+  - start: 15-03
+    category: poda
+    type: varas secas
+    instructions: Eliminar varas florales secas y hojas dañadas.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-09
+    category: trasplante/división
+    type: división si saturado
+    instructions: Dividir matas muy densas antes de crecimiento fuerte.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Dalias
+  latin: Dahlia spp.
+  group: bulbosa
+  active: false
+  profile: Tuberosa; sensible a heladas fuertes y pudrición por exceso de agua.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: siembra
+    type: plantación tubérculos
+    instructions: Plantar después de riesgo fuerte de heladas, en suelo drenado.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 1
+    edible_warning: false
+    notes: ''
+  - start: 15-05
+    category: poda
+    type: corte al receso
+    instructions: Cortar parte aérea tras marchitez por frío; proteger tubérculo del exceso de humedad.
+    priority: media
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Narcisos
+  latin: Narcissus spp.
+  group: bulbosa
+  active: false
+  profile: Bulbosa de otoño-invierno; no cortar follaje verde.
+  sources: *id002
+  tasks:
+  - start: 15-04
+    category: siembra
+    type: plantación bulbos
+    instructions: Plantar en otoño en suelo drenado.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-11
+    category: poda
+    type: follaje seco
+    instructions: Cortar solo cuando el follaje esté seco; no cortar verde.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Tulipanes
+  latin: Tulipa spp.
+  group: bulbosa
+  active: false
+  profile: Bulbo de otoño; requiere frío.
+  sources: *id002
+  tasks:
+  - start: 15-04
+    category: siembra
+    type: plantación bulbos
+    instructions: Plantar en otoño; evitar encharcamiento.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-11
+    category: poda
+    type: follaje seco
+    instructions: Cortar cuando hojas amarilleen/sequen.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Fresias
+  latin: Freesia spp.
+  group: bulbosa
+  active: false
+  profile: Plantación otoñal; floración primavera.
+  sources: *id002
+  tasks:
+  - start: 15-04
+    category: siembra
+    type: plantación cormos
+    instructions: Plantar en otoño en suelo drenado.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 15-11
+    category: poda
+    type: follaje seco
+    instructions: Cortar follaje cuando esté seco.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: false
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Peumo
+  latin: Cryptocarya alba
+  group: árbol nativo
+  active: false
+  profile: Árbol nativo persistente; poda mínima.
+  sources: *id002
+  tasks:
+  - start: 15-08
+    category: poda
+    type: sanitaria mínima
+    instructions: Solo ramas secas, peligrosas o mal insertadas.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Arrayán / Luma
+  latin: Luma apiculata
+  group: árbol nativo
+  active: false
+  profile: Poda mínima; valorar corteza y estructura.
+  sources: *id002
+  tasks:
+  - start: 15-08
+    category: poda
+    type: sanitaria mínima
+    instructions: Solo limpieza o formación muy suave.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Canelo
+  latin: Drimys winteri
+  group: árbol nativo
+  active: false
+  profile: Prefiere humedad; poda mínima.
+  sources: *id002
+  tasks:
+  - start: 15-08
+    category: poda
+    type: sanitaria mínima
+    instructions: Solo ramas secas o dañadas.
+    priority: baja
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Azara
+  latin: Azara spp.
+  group: arbusto/árbol nativo
+  active: false
+  profile: Poda suave post floración si se requiere.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: forma suave
+    instructions: Ordenar después de floración si corresponde.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Escallonia
+  latin: Escallonia spp.
+  group: arbusto
+  active: false
+  profile: Arbusto nativo/ornamental; seto y flor.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración / forma
+    instructions: Recortar después de floración; evitar poda fuerte en invierno.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+  - start: 01-09
+    category: fertilización
+    type: inicio crecimiento
+    instructions: Fertilización suave si presenta bajo vigor.
+    priority: baja
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Viburnum tinus
+  latin: Viburnum tinus
+  group: arbusto
+  active: false
+  profile: Persistente común; poda suave post floración.
+  sources: *id002
+  tasks:
+  - start: 15-09
+    category: poda
+    type: post floración
+    instructions: Dar forma y retirar ramas envejecidas.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: false
+    notes: ''
+- name: Duraznero
+  latin: Prunus persica
+  group: frutal
+  active: false
+  profile: Carozo; poda y sanidad requieren cuidado de heridas y carencia.
+  sources: *id001
+  tasks:
+  - start: 10-07
+    category: poda
+    type: fructificación
+    instructions: Poda prudente en seco; evitar cortes grandes con lluvia.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 8
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: invierno
+    instructions: Tratamiento preventivo de invierno si corresponde; producto autorizado y carencia.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Ciruelos
+  latin: Prunus domestica / salicina
+  group: frutal
+  active: false
+  profile: Carozo; evitar podas en lluvia y respetar carencias.
+  sources: *id001
+  tasks:
+  - start: 10-07
+    category: poda
+    type: fructificación ligera
+    instructions: Podar en seco, eliminar ramas cruzadas y mejorar ventilación.
+    priority: alta
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 8
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: invierno
+    instructions: Ventana de invierno si hay historial sanitario; producto autorizado y carencia.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Membrillo
+  latin: Cydonia oblonga
+  group: frutal
+  active: false
+  profile: Pomáceo similar a peral en estructura; fruta comestible.
+  sources: *id001
+  tasks:
+  - start: 10-07
+    category: poda
+    type: fructificación
+    instructions: Abrir copa y eliminar ramas cruzadas.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 10
+    frost_limit_c: -2
+    edible_warning: true
+    notes: ''
+  - start: 20-07
+    category: sanidad preventiva
+    type: invierno
+    instructions: Tratamiento preventivo si hay historial; etiqueta y carencia.
+    priority: alta
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: true
+    rain_limit_mm_72h: 5
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
+- name: Cítricos
+  latin: Citrus spp.
+  group: frutal
+  active: false
+  profile: En Pumalal requieren sitio protegido; poda mínima post frío.
+  sources: *id001
+  tasks:
+  - start: 15-09
+    category: poda
+    type: sanitaria/formación suave
+    instructions: Podar tras riesgo de heladas fuertes; retirar ramas secas por frío.
+    priority: media
+    avoid_frost: true
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 1
+    edible_warning: true
+    notes: ''
+  - start: 01-10
+    category: fertilización
+    type: inicio crecimiento
+    instructions: Fertilizar cuando hay crecimiento activo.
+    priority: media
+    avoid_frost: false
+    avoid_rain: true
+    prefer_after_rain: false
+    rain_limit_mm_72h: 12
+    frost_limit_c: 0
+    edible_warning: true
+    notes: ''
