@@ -1,0 +1,41 @@
+name: Podas Pumalal Dynamic ICS
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-ics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements_ics.txt
+
+      - name: Generate dynamic calendar
+        run: python dynamic_ics_bot.py
+
+      - name: Commit updated ICS
+        run: |
+          git config user.name "podas-pumalal-bot"
+          git config user.email "bot@users.noreply.github.com"
+
+          git add podas_pumalal_dinamico.ics
+
+          git commit -m "Actualizar calendario dinámico" || echo "Sin cambios"
+
+          git push 
