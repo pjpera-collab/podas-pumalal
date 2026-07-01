@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-06-30@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T074500
-DTEND;TZID=America/Santiago:20260630T080000
+UID:pumalal-resumen-2026-07-01@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T074500
+DTEND;TZID=America/Santiago:20260701T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 30-06-2026 13:30\nLluvia 72 h: 4.7 mm\nMínima 72 h: -0.3 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 01-07-2026 14:21\nLluvia 72 h: 3.4 mm\nMínima 72 h: -2.3 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,38 +21,38 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-998bb8ff89826d7c4831@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260710T083000
-DTEND;TZID=America/Santiago:20260710T090000
-SUMMARY:🌿 HACER / VENTANA APTA: poda · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: poda · fructificación\nFecha base: 10-07-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nEliminar chupones\, ramas cruzadas y exceso de densidad\; mantener copa abierta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-476acde0de02274f91f2@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
+SUMMARY:⚠️ POSTERGAR: poda · Manzanos
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: poda · fructificación\nFecha base: 10-07-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: -2.3 °C el 2026-07-03\n\nInstrucciones:\nEliminar chupones\, ramas cruzadas y exceso de densidad\; mantener copa abierta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Manzanos
+DESCRIPTION:⚠️ POSTERGAR: poda · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-76440ce661e3750251ca@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260710T083000
-DTEND;TZID=America/Santiago:20260710T090000
-SUMMARY:🌿 HACER / VENTANA APTA: poda · Perales
-DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: poda · fructificación\nFecha base: 10-07-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nEliminar chupones\, ramas hacia el centro y madera débil.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-c107a34ea2e477ae1856@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
+SUMMARY:⚠️ POSTERGAR: poda · Perales
+DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: poda · fructificación\nFecha base: 10-07-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: -2.3 °C el 2026-07-03\n\nInstrucciones:\nEliminar chupones\, ramas hacia el centro y madera débil.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Perales
+DESCRIPTION:⚠️ POSTERGAR: poda · Perales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-543a9222ad22e3fa8859@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-c4882a441af24103b2ae@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Cerezos / guindos
-DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · invierno / reposo\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (4.7 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nVentana preventiva si hay historial\; producto autorizado para cerezo/guindo.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · invierno / reposo\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.4 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nVentana preventiva si hay historial\; producto autorizado para cerezo/guindo.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -60,12 +60,12 @@ DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Cerezos / guindos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-06fdc7afc5389f97d285@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-c00b6780a5ec289b01f0@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · tratamiento invierno\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (4.7 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nVentana sanitaria en reposo. Usar solo producto autorizado para manzano y registrar carencia.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · tratamiento invierno\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.4 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nVentana sanitaria en reposo. Usar solo producto autorizado para manzano y registrar carencia.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -73,12 +73,12 @@ DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-14878a88975674d4b5d2@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-0d0cc0ba6488f9c2139a@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Perales
-DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: sanidad preventiva · tratamiento invierno\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (4.7 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nProtección preventiva en reposo si hay antecedentes sanitarios.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: sanidad preventiva · tratamiento invierno\nFecha base: 20-07-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.4 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nProtección preventiva en reposo si hay antecedentes sanitarios.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -86,25 +86,25 @@ DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Perales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-4b7725828c2cf0401d37@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260801T083000
-DTEND;TZID=America/Santiago:20260801T090000
-SUMMARY:🌿 HACER / VENTANA APTA: poda · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · poda fuerte de invierno\nFecha base: 01-08-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nAbrir centro\, eliminar madera enferma\, cruzada o débil\; dejar estructura aireada.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-0e6041f20dae48a43c1d@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
+SUMMARY:⚠️ POSTERGAR: poda · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · poda fuerte de invierno\nFecha base: 01-08-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: -2.3 °C el 2026-07-03\n\nInstrucciones:\nAbrir centro\, eliminar madera enferma\, cruzada o débil\; dejar estructura aireada.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Rosas
+DESCRIPTION:⚠️ POSTERGAR: poda · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-8abf922a2664e21eb7fd@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-94416368a43049f976a4@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Spiraea japonica
-DESCRIPTION:Especie: Spiraea japonica (Spiraea japonica)\nLabor: poda · poda fuerte\nFecha base: 01-08-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nRebajar bajo para renovar y mejorar floración.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Spiraea japonica (Spiraea japonica)\nLabor: poda · poda fuerte\nFecha base: 01-08-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nRebajar bajo para renovar y mejorar floración.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -112,12 +112,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Spiraea japonica
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c3b94aa9944c6363bb62@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-05897942b155bc532621@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · post poda\nFecha base: 05-08-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (4.7 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nRevisar y activar protección preventiva post-poda si hay humedad o lluvias. No aplicar antes de lluvia fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · post poda\nFecha base: 05-08-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.4 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nRevisar y activar protección preventiva post-poda si hay humedad o lluvias. No aplicar antes de lluvia fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -125,12 +125,12 @@ DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-058b9696f922bb6623f0@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-44fb7fce54317a1b9286@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Avellano morado
-DESCRIPTION:Especie: Avellano morado (Corylus maxima 'Purpurea')\nLabor: poda · formación\nFecha base: 10-07-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nEliminar brotes basales no deseados\, ramas cruzadas y madera débil.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Avellano morado (Corylus maxima 'Purpurea')\nLabor: poda · formación\nFecha base: 10-07-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nEliminar brotes basales no deseados\, ramas cruzadas y madera débil.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -138,21 +138,21 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Avellano morado
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c9ef6db13327dd947dcf@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260710T083000
-DTEND;TZID=America/Santiago:20260710T090000
-SUMMARY:🌿 HACER / VENTANA APTA: poda · Cerezos / guindos
-DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: poda · ligera sanitaria\nFecha base: 10-07-2026\nPrioridad: media\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nSolo limpieza y correcciones menores\; evitar cortes grandes.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-5b8a030a02d00d43bc72@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
+SUMMARY:⚠️ POSTERGAR: poda · Cerezos / guindos
+DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: poda · ligera sanitaria\nFecha base: 10-07-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -2.3 °C el 2026-07-03\n\nInstrucciones:\nSolo limpieza y correcciones menores\; evitar cortes grandes.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Cerezos / guindos
+DESCRIPTION:⚠️ POSTERGAR: poda · Cerezos / guindos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-e9cae07deee12bbfbe1f@podas
-DTSTAMP:20260630T173055Z
+UID:pumalal-daa1eae06b10ec790774@podas
+DTSTAMP:20260701T182143Z
 DTSTART;TZID=America/Santiago:20260715T083000
 DTEND;TZID=America/Santiago:20260715T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Stipa tenuissima
@@ -164,12 +164,12 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Stipa tenuissima
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c6aaef3f3d2a56d4f179@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-52268dea3696879c4250@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Abelia grandiflora / nana
-DESCRIPTION:Especie: Abelia grandiflora / nana (Abelia x grandiflora)\nLabor: poda · estructural\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nCompactar sin cortar toda la planta al ras.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Abelia grandiflora / nana (Abelia x grandiflora)\nLabor: poda · estructural\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nCompactar sin cortar toda la planta al ras.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -177,12 +177,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Abelia grandiflora / nana
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-03bda3dbf902a85e7a32@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-a826ea9502f4667ecc26@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Boj / Lonicera nitida
-DESCRIPTION:Especie: Boj / Lonicera nitida (Buxus sempervirens / Lonicera nitida)\nLabor: poda · estructura\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nRecuperar forma sin cortes excesivamente profundos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Boj / Lonicera nitida (Buxus sempervirens / Lonicera nitida)\nLabor: poda · estructura\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nRecuperar forma sin cortes excesivamente profundos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -190,12 +190,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Boj / Lonicera nitida
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-7da77e283d6dd7920394@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-7d35d67a56e89214c25d@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Hipérico
-DESCRIPTION:Especie: Hipérico (Hypericum spp.)\nLabor: poda · rejuvenecimiento\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nRebaje fuerte si está leñoso o abierto.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Hipérico (Hypericum spp.)\nLabor: poda · rejuvenecimiento\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nRebaje fuerte si está leñoso o abierto.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -203,12 +203,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Hipérico
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-45ee8f1168c01d9df488@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-a2849a6f350e83a5288e@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Pitosporo nigricans
-DESCRIPTION:Especie: Pitosporo nigricans (Pittosporum tenuifolium 'Nigricans')\nLabor: poda · reducción de volumen\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nReducir máximo un tercio\; no dejar pelado por dentro.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Pitosporo nigricans (Pittosporum tenuifolium 'Nigricans')\nLabor: poda · reducción de volumen\nFecha base: 01-08-2026\nPrioridad: media\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nReducir máximo un tercio\; no dejar pelado por dentro.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -216,12 +216,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Pitosporo nigricans
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-ca4a1ebf0a96b5c77089@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-56a640020c6b0d0b46af@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Acer japonico
-DESCRIPTION:Especie: Acer japonico (Acer palmatum / japonicum)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nSolo ramas secas o mal orientadas\; evitar poda ornamental fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Acer japonico (Acer palmatum / japonicum)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nSolo ramas secas o mal orientadas\; evitar poda ornamental fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -229,12 +229,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Acer japonico
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-e7cc05d104467f96f001@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-8395a5ebd4562f6d8602@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Liquidámbar
-DESCRIPTION:Especie: Liquidámbar (Liquidambar styraciflua)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nEliminar ramas secas\, rotas o cruzadas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Liquidámbar (Liquidambar styraciflua)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nEliminar ramas secas\, rotas o cruzadas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -242,12 +242,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Liquidámbar
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c576916ed833acdbe1e9@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-bfa4586ae8c18dff63eb@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Magnolio
-DESCRIPTION:Especie: Magnolio (Magnolia spp.)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nSolo limpieza\; evitar cortes grandes.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Magnolio (Magnolia spp.)\nLabor: poda · sanitaria mínima\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nSolo limpieza\; evitar cortes grandes.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -255,12 +255,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Magnolio
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-3b2ae82c3b2166fd74f7@podas
-DTSTAMP:20260630T173055Z
-DTSTART;TZID=America/Santiago:20260630T083000
-DTEND;TZID=America/Santiago:20260630T090000
+UID:pumalal-4aa5e1d6c8c92cd4ae82@podas
+DTSTAMP:20260701T182143Z
+DTSTART;TZID=America/Santiago:20260701T083000
+DTEND;TZID=America/Santiago:20260701T090000
 SUMMARY:⚠️ POSTERGAR: poda · Nothofagus obliqua
-DESCRIPTION:Especie: Nothofagus obliqua (Nothofagus obliqua)\nLabor: poda · sanitaria excepcional\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.3 °C el 2026-07-02\n\nInstrucciones:\nSolo ramas secas\, peligrosas o con mala inserción.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Nothofagus obliqua (Nothofagus obliqua)\nLabor: poda · sanitaria excepcional\nFecha base: 15-07-2026\nPrioridad: baja\nCriterio climático: POSTERGAR — helada o mínima crítica: -0.7 °C el 2026-07-02\n\nInstrucciones:\nSolo ramas secas\, peligrosas o con mala inserción.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
