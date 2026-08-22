@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-08-21@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260821T074500
-DTEND;TZID=America/Santiago:20260821T080000
+UID:pumalal-resumen-2026-08-22@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T074500
+DTEND;TZID=America/Santiago:20260822T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 21-08-2026 07:29\nLluvia 72 h: 0.0 mm\nMínima 72 h: 2.5 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 22-08-2026 07:23\nLluvia 72 h: 6.2 mm\nMínima 72 h: 2.7 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,60 +21,60 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-b27f12651b27860f1e3f@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260905T083000
-DTEND;TZID=America/Santiago:20260905T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
-DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · salida de invierno\nFecha base: 05-09-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nMomento clave antes de yema hinchada si corresponde.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-6043a7d7ce52800479fa@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Cerezos / guindos
+DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · salida de invierno\nFecha base: 05-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nMomento clave antes de yema hinchada si corresponde.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Cerezos / guindos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-46087337b4b49d37dec4@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260910T083000
-DTEND;TZID=America/Santiago:20260910T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · yema hinchada / brotación\nFecha base: 10-09-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nRevisar brotación y presión de lluvia\; activar protección si el año viene húmedo.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-c87e544673d9b6c09fc1@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Manzanos
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · yema hinchada / brotación\nFecha base: 10-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nRevisar brotación y presión de lluvia\; activar protección si el año viene húmedo.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-e24b8eb6981b83a62075@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260910T083000
-DTEND;TZID=America/Santiago:20260910T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Perales
-DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: sanidad preventiva · brotación\nFecha base: 10-09-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nRefuerzo al inicio de brotación si hay lluvias\; respetar etiqueta y carencia.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-0c596c70db87675e8ddf@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Perales
+DESCRIPTION:Especie: Perales (Pyrus communis)\nLabor: sanidad preventiva · brotación\nFecha base: 10-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nRefuerzo al inicio de brotación si hay lluvias\; respetar etiqueta y carencia.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Perales
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Perales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-0de1a3db4d20f0bcf396@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260915T083000
-DTEND;TZID=America/Santiago:20260915T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa primavera\nFecha base: 15-09-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nPrograma preventivo contra mancha negra\, oídio y roya. Frecuencia según producto\, lluvia y presión del jardín.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-b973a728a184480b32a1@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa primavera\nFecha base: 15-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nPrograma preventivo contra mancha negra\, oídio y roya. Frecuencia según producto\, lluvia y presión del jardín.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-f53f5d3832c0bda2f0e6@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-e0d73f35d1a9ffcd8822@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: siembra · Siembras de flores anuales
@@ -86,34 +86,34 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: siembra · Siembras de flores anuales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-14d1fc0fd6a7378fac3c@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20260920T083000
-DTEND;TZID=America/Santiago:20260920T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
-DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · floración\nFecha base: 20-09-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nVigilar lluvia en floración y pudriciones\; cuidar polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-8f9bf82822bce4515153@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Cerezos / guindos
+DESCRIPTION:Especie: Cerezos / guindos (Prunus avium / Prunus cerasus)\nLabor: sanidad preventiva · floración\nFecha base: 20-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nVigilar lluvia en floración y pudriciones\; cuidar polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Cerezos / guindos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-20c38573f417824cb4dc@podas
-DTSTAMP:20260821T112919Z
-DTSTART;TZID=America/Santiago:20261015T083000
-DTEND;TZID=America/Santiago:20261015T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+UID:pumalal-37e4e24068c26043ff76@podas
+DTSTAMP:20260822T112309Z
+DTSTART;TZID=America/Santiago:20260822T083000
+DTEND;TZID=America/Santiago:20260822T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Manzanos
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.2 mm en 72 h\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-1bf686786a4ce81b729d@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-db54366772c7bd23c343@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260901T083000
 DTEND;TZID=America/Santiago:20260901T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Azaleas
@@ -125,8 +125,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Azaleas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-33063ef7b5f0571c90bd@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-a606883c4cf94ed61e73@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260901T083000
 DTEND;TZID=America/Santiago:20260901T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Manzanos
@@ -138,8 +138,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-fc82bd1919ab08d1d802@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-6e8e466f5f3a58f463ac@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260901T083000
 DTEND;TZID=America/Santiago:20260901T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Perales
@@ -151,8 +151,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Perales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-b99a495444a339e8ccee@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-dff62893e8effb072e15@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260901T083000
 DTEND;TZID=America/Santiago:20260901T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Rosas
@@ -164,8 +164,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-861e87f465932d61e628@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-0fefc59f8bdd41072296@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Azaleas
@@ -177,8 +177,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Azaleas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-277ce3bd1e42d655e97a@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-87181e12d9245c0b288c@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Chaenomeles
@@ -190,8 +190,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Chaenomeles
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-cc809f3e0f944d2272ae@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-ac0b0d2f4a72c7ec6461@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Choisya ternata
@@ -203,8 +203,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Choisya ternata
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c3ed19180131c639df28@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-d1420147560ff3b0ce3b@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Spiraea thunbergii / cantoniensis
@@ -216,8 +216,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Spiraea thunbergii / cantoniensis
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-063159a8e394b3e68d45@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-28554d7b6ba0a34c66a6@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20261015T083000
 DTEND;TZID=America/Santiago:20261015T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anuales
@@ -229,8 +229,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anua
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-cd5d779acc19ecc6ef44@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-ae743fd93a7550e473cf@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260901T083000
 DTEND;TZID=America/Santiago:20260901T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Choisya ternata
@@ -242,8 +242,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Choisya ternata
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-5f170dcd5a091463ffc4@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-7388e63b8a855b72a2b7@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Aucuba japonica
@@ -255,8 +255,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Aucuba japonica
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-c0ad49f6c13f865bfa81@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-46e6b8fdac07ac11dd60@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: trasplante/división · Crocosmias
@@ -268,8 +268,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: trasplante/división · Crocosmias
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-a28419c876a349f2668f@podas
-DTSTAMP:20260821T112919Z
+UID:pumalal-d75a20b7f6daccbda6fd@podas
+DTSTAMP:20260822T112309Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: trasplante/división · Libertia chilensis
