@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-09-07@podas
-DTSTAMP:20260907T161918Z
-DTSTART;TZID=America/Santiago:20260907T074500
-DTEND;TZID=America/Santiago:20260907T080000
+UID:pumalal-resumen-2026-09-08@podas
+DTSTAMP:20260908T145928Z
+DTSTART;TZID=America/Santiago:20260908T074500
+DTEND;TZID=America/Santiago:20260908T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 07-09-2026 13:19\nLluvia 72 h: 0.0 mm\nMínima 72 h: 0.4 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 08-09-2026 11:59\nLluvia 72 h: 1.3 mm\nMínima 72 h: 0.8 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,8 +21,8 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-3dba5b0eb3f379ec1363@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-274410310f29a33fc6d9@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260910T083000
 DTEND;TZID=America/Santiago:20260910T090000
 SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
@@ -34,8 +34,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-4b0ab5c7d6d6f6660f5c@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-bfd141ccdacaa4d6da4e@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260910T083000
 DTEND;TZID=America/Santiago:20260910T090000
 SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Perales
@@ -47,8 +47,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Perales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-7fb4b7315e7c65587dc6@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-e676efc860ee7cfd43c0@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
@@ -60,12 +60,12 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-54206998f24da216a0e9@podas
-DTSTAMP:20260907T161918Z
-DTSTART;TZID=America/Santiago:20260907T083000
-DTEND;TZID=America/Santiago:20260907T090000
+UID:pumalal-28697f5289ee39875081@podas
+DTSTAMP:20260908T145928Z
+DTSTART;TZID=America/Santiago:20260908T083000
+DTEND;TZID=America/Santiago:20260908T090000
 SUMMARY:⚠️ POSTERGAR: siembra · Siembras de flores anuales
-DESCRIPTION:Especie: Siembras de flores anuales (mezclas ornamentales)\nLabor: siembra · siembra primavera\nFecha base: 15-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: 0.4 °C el 2026-09-09\n\nInstrucciones:\nSiembra principal tras lo peor de las heladas. Cama fina\, húmeda y sin malezas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Siembras de flores anuales (mezclas ornamentales)\nLabor: siembra · siembra primavera\nFecha base: 15-09-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — helada o mínima crítica: 0.8 °C el 2026-09-09\n\nInstrucciones:\nSiembra principal tras lo peor de las heladas. Cama fina\, húmeda y sin malezas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -73,8 +73,8 @@ DESCRIPTION:⚠️ POSTERGAR: siembra · Siembras de flores anuales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-1df371783f9d30700668@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-ea18079a742809bc9876@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260920T083000
 DTEND;TZID=America/Santiago:20260920T090000
 SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
@@ -86,8 +86,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Cerezos / guindos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-49a0b65ef5ecdd79fe72@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-b762ff016c1278a58fda@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20261015T083000
 DTEND;TZID=America/Santiago:20261015T090000
 SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
@@ -99,8 +99,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-e1318e30a3629bfb535a@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-5b9bdf34aa928ac207b2@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Azaleas
@@ -112,8 +112,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Azaleas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-49e3dfd58665b51fbbb2@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-ae066a7bd29cfec0815c@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Chaenomeles
@@ -125,8 +125,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Chaenomeles
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-e646b0683ff8d1ea39d0@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-0633741aa4cc6e3d3e5c@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Choisya ternata
@@ -138,8 +138,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Choisya ternata
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-2e70d58849ddb883aa3d@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-5b19052eaa44197bcf0a@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Spiraea thunbergii / cantoniensis
@@ -151,8 +151,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Spiraea thunbergii / cantoniensis
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-8438f722201363cd3449@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-15be38b578f33c6ea064@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20261015T083000
 DTEND;TZID=America/Santiago:20261015T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anuales
@@ -164,8 +164,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anua
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-1dc022fec1138d37dca0@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-3d521929e6a4e5274dbd@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Aucuba japonica
@@ -177,8 +177,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Aucuba japonica
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-97b75dd235cac67c8007@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-1a7b7c40da215c0dd597@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: trasplante/división · Crocosmias
@@ -190,8 +190,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: trasplante/división · Crocosmias
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-a6278bcc456663dcaa49@podas
-DTSTAMP:20260907T161918Z
+UID:pumalal-b82d8dcc7655445ae8ca@podas
+DTSTAMP:20260908T145928Z
 DTSTART;TZID=America/Santiago:20260915T083000
 DTEND;TZID=America/Santiago:20260915T090000
 SUMMARY:🌿 HACER / VENTANA APTA: trasplante/división · Libertia chilensis
