@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-10-09@podas
-DTSTAMP:20261009T172221Z
-DTSTART;TZID=America/Santiago:20261009T074500
-DTEND;TZID=America/Santiago:20261009T080000
+UID:pumalal-resumen-2026-10-10@podas
+DTSTAMP:20261010T160757Z
+DTSTART;TZID=America/Santiago:20261010T074500
+DTEND;TZID=America/Santiago:20261010T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 09-10-2026 14:22\nLluvia 72 h: 6.4 mm\nMínima 72 h: 5.7 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 10-10-2026 13:07\nLluvia 72 h: 20.6 mm\nMínima 72 h: 6.0 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,12 +21,12 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-4318f5f0e10e1378cc4a@podas
-DTSTAMP:20261009T172221Z
-DTSTART;TZID=America/Santiago:20261009T083000
-DTEND;TZID=America/Santiago:20261009T090000
+UID:pumalal-cf587269b8c88b2e96aa@podas
+DTSTAMP:20261010T160757Z
+DTSTART;TZID=America/Santiago:20261010T083000
+DTEND;TZID=America/Santiago:20261010T090000
 SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.4 mm en 72 h\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 20.6 mm en 72 h\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -34,12 +34,12 @@ DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-6edebd9b33014648e81e@podas
-DTSTAMP:20261009T172221Z
-DTSTART;TZID=America/Santiago:20261009T083000
-DTEND;TZID=America/Santiago:20261009T090000
+UID:pumalal-4febfbe308673f43ba6b@podas
+DTSTAMP:20261010T160757Z
+DTSTART;TZID=America/Santiago:20261010T083000
+DTEND;TZID=America/Santiago:20261010T090000
 SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 6.4 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 20.6 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -47,29 +47,29 @@ DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-5a079dfa6135c99332f5@podas
-DTSTAMP:20261009T172221Z
-DTSTART;TZID=America/Santiago:20261015T083000
-DTEND;TZID=America/Santiago:20261015T090000
-SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anuales
-DESCRIPTION:Especie: Siembras de flores anuales (mezclas ornamentales)\nLabor: fertilización · arranque suave\nFecha base: 15-10-2026\nPrioridad: media\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nFertilización suave cuando plántulas estén establecidas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-838122da9e525f69e207@podas
+DTSTAMP:20261010T160757Z
+DTSTART;TZID=America/Santiago:20261010T083000
+DTEND;TZID=America/Santiago:20261010T090000
+SUMMARY:⚠️ POSTERGAR: fertilización · Siembras de flores anuales
+DESCRIPTION:Especie: Siembras de flores anuales (mezclas ornamentales)\nLabor: fertilización · arranque suave\nFecha base: 15-10-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 20.6 mm en 72 h\n\nInstrucciones:\nFertilización suave cuando plántulas estén establecidas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anuales
+DESCRIPTION:⚠️ POSTERGAR: fertilización · Siembras de flores anuales
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-eeed73fb40e94a329a91@podas
-DTSTAMP:20261009T172221Z
-DTSTART;TZID=America/Santiago:20261201T083000
-DTEND;TZID=America/Santiago:20261201T090000
-SUMMARY:🌿 HACER / VENTANA APTA: poda · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-3fddad383769be5a0a0b@podas
+DTSTAMP:20261010T160757Z
+DTSTART;TZID=America/Santiago:20261010T083000
+DTEND;TZID=America/Santiago:20261010T090000
+SUMMARY:⚠️ POSTERGAR: poda · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 20.6 mm en 72 h\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: poda · Rosas
+DESCRIPTION:⚠️ POSTERGAR: poda · Rosas
 END:VALARM
 END:VEVENT
 END:VCALENDAR
