@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-10-15@podas
-DTSTAMP:20261015T153121Z
-DTSTART;TZID=America/Santiago:20261015T074500
-DTEND;TZID=America/Santiago:20261015T080000
+UID:pumalal-resumen-2026-10-16@podas
+DTSTAMP:20261016T151736Z
+DTSTART;TZID=America/Santiago:20261016T074500
+DTEND;TZID=America/Santiago:20261016T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 15-10-2026 12:31\nLluvia 72 h: 3.5 mm\nMínima 72 h: 7.2 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 16-10-2026 12:17\nLluvia 72 h: 1.0 mm\nMínima 72 h: 8.8 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,34 +21,34 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-fe30cc508ddf251f8c9b@podas
-DTSTAMP:20261015T153121Z
+UID:pumalal-94e837b82a87682cb8b2@podas
+DTSTAMP:20261016T151736Z
 DTSTART;TZID=America/Santiago:20261015T083000
 DTEND;TZID=America/Santiago:20261015T090000
-SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Manzanos
-DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.5 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
+SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
+DESCRIPTION:Especie: Manzanos (Malus domestica)\nLabor: sanidad preventiva · floración / cuaja\nFecha base: 15-10-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nVigilar enfermedades en floración/cuaja\; cuidar compatibilidad con polinizadores y etiqueta.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.\n\nFRUTA COMESTIBLE: revisar etiqueta SAG y carencia antes de cosechar.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Manzanos
+DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Manzanos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-58578838fab404bcb860@podas
-DTSTAMP:20261015T153121Z
-DTSTART;TZID=America/Santiago:20261015T083000
-DTEND;TZID=America/Santiago:20261015T090000
-SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.5 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-ba3e6523fcc0bfb41696@podas
+DTSTAMP:20261016T151736Z
+DTSTART;TZID=America/Santiago:20261115T083000
+DTEND;TZID=America/Santiago:20261115T090000
+SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
+DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-4e00ab8837e2c1b84967@podas
-DTSTAMP:20261015T153121Z
+UID:pumalal-66d750c45a1df4922a31@podas
+DTSTAMP:20261016T151736Z
 DTSTART;TZID=America/Santiago:20261015T083000
 DTEND;TZID=America/Santiago:20261015T090000
 SUMMARY:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anuales
@@ -60,8 +60,8 @@ DESCRIPTION:🌿 HACER / VENTANA APTA: fertilización · Siembras de flores anua
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-6fb616af6b74d63c1650@podas
-DTSTAMP:20261015T153121Z
+UID:pumalal-4e8b96d36b363ad971fd@podas
+DTSTAMP:20261016T151736Z
 DTSTART;TZID=America/Santiago:20261201T083000
 DTEND;TZID=America/Santiago:20261201T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Rosas
