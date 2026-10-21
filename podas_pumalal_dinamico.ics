@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-10-20@podas
-DTSTAMP:20261020T153435Z
-DTSTART;TZID=America/Santiago:20261020T074500
-DTEND;TZID=America/Santiago:20261020T080000
+UID:pumalal-resumen-2026-10-21@podas
+DTSTAMP:20261021T155146Z
+DTSTART;TZID=America/Santiago:20261021T074500
+DTEND;TZID=America/Santiago:20261021T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 20-10-2026 12:34\nLluvia 72 h: 17.6 mm\nMínima 72 h: 9.5 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 21-10-2026 12:51\nLluvia 72 h: 29.2 mm\nMínima 72 h: 9.7 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,12 +21,12 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-51459b56905aebca324b@podas
-DTSTAMP:20261020T153435Z
-DTSTART;TZID=America/Santiago:20261020T083000
-DTEND;TZID=America/Santiago:20261020T090000
+UID:pumalal-fbd92f50677ef8c9d735@podas
+DTSTAMP:20261021T155146Z
+DTSTART;TZID=America/Santiago:20261021T083000
+DTEND;TZID=America/Santiago:20261021T090000
 SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 17.6 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 29.2 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -34,12 +34,12 @@ DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-45439f7160c680dd570d@podas
-DTSTAMP:20261020T153435Z
-DTSTART;TZID=America/Santiago:20261020T083000
-DTEND;TZID=America/Santiago:20261020T090000
+UID:pumalal-05f5063cbc060211fb78@podas
+DTSTAMP:20261021T155146Z
+DTSTART;TZID=America/Santiago:20261021T083000
+DTEND;TZID=America/Santiago:20261021T090000
 SUMMARY:⚠️ POSTERGAR: poda · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 17.6 mm en 72 h\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 29.2 mm en 72 h\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
