@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-10-25@podas
-DTSTAMP:20261025T145336Z
-DTSTART;TZID=America/Santiago:20261025T074500
-DTEND;TZID=America/Santiago:20261025T080000
+UID:pumalal-resumen-2026-10-26@podas
+DTSTAMP:20261026T170957Z
+DTSTART;TZID=America/Santiago:20261026T074500
+DTEND;TZID=America/Santiago:20261026T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 25-10-2026 11:53\nLluvia 72 h: 3.7 mm\nMínima 72 h: 6.4 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 26-10-2026 14:09\nLluvia 72 h: 0.3 mm\nMínima 72 h: 7.1 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,21 +21,21 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-04efb37de1fa94204cec@podas
-DTSTAMP:20261025T145336Z
-DTSTART;TZID=America/Santiago:20261025T083000
-DTEND;TZID=America/Santiago:20261025T090000
-SUMMARY:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: ESPERAR POST-LLUVIA — viene lluvia (3.7 mm/72 h)\; mejor después del frente\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-cce6c53d06ea532f71d6@podas
+DTSTAMP:20261026T170957Z
+DTSTART;TZID=America/Santiago:20261115T083000
+DTEND;TZID=America/Santiago:20261115T090000
+SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:⚠️ ESPERAR POST-LLUVIA: sanidad preventiva · Rosas
+DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-ee4e27c6a87d52fb9c28@podas
-DTSTAMP:20261025T145336Z
+UID:pumalal-a5972ef219759d63e541@podas
+DTSTAMP:20261026T170957Z
 DTSTART;TZID=America/Santiago:20261201T083000
 DTEND;TZID=America/Santiago:20261201T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Rosas
