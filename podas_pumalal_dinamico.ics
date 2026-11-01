@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-10-31@podas
-DTSTAMP:20261031T155825Z
-DTSTART;TZID=America/Santiago:20261031T074500
-DTEND;TZID=America/Santiago:20261031T080000
+UID:pumalal-resumen-2026-11-01@podas
+DTSTAMP:20261101T170128Z
+DTSTART;TZID=America/Santiago:20261101T074500
+DTEND;TZID=America/Santiago:20261101T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 31-10-2026 12:58\nLluvia 72 h: 0.0 mm\nMínima 72 h: 6.1 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 01-11-2026 14:01\nLluvia 72 h: 11.8 mm\nMínima 72 h: 6.6 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,21 +21,21 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-ffd618a481f98da3a8fa@podas
-DTSTAMP:20261031T155825Z
-DTSTART;TZID=America/Santiago:20261115T083000
-DTEND;TZID=America/Santiago:20261115T090000
-SUMMARY:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: HACER / VENTANA APTA — sin alerta climática relevante\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+UID:pumalal-5753e40472bd90e561f4@podas
+DTSTAMP:20261101T170128Z
+DTSTART;TZID=America/Santiago:20261101T083000
+DTEND;TZID=America/Santiago:20261101T090000
+SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Rosas
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 11.8 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:🌿 HACER / VENTANA APTA: sanidad preventiva · Rosas
+DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-970e5a19bcbc6105487c@podas
-DTSTAMP:20261031T155825Z
+UID:pumalal-62c368d6ecb26a77d718@podas
+DTSTAMP:20261101T170128Z
 DTSTART;TZID=America/Santiago:20261201T083000
 DTEND;TZID=America/Santiago:20261201T090000
 SUMMARY:🌿 HACER / VENTANA APTA: poda · Rosas
