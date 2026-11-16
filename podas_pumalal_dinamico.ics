@@ -8,12 +8,12 @@ X-WR-TIMEZONE:America/Santiago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pumalal-resumen-2026-11-15@podas
-DTSTAMP:20261115T173632Z
-DTSTART;TZID=America/Santiago:20261115T074500
-DTEND;TZID=America/Santiago:20261115T080000
+UID:pumalal-resumen-2026-11-16@podas
+DTSTAMP:20261116T205037Z
+DTSTART;TZID=America/Santiago:20261116T074500
+DTEND;TZID=America/Santiago:20261116T080000
 SUMMARY:🌿 Resumen climático Podas Pumalal
-DESCRIPTION:Generado: 15-11-2026 14:36\nLluvia 72 h: 27.2 mm\nMínima 72 h: 11.0 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
+DESCRIPTION:Generado: 16-11-2026 17:50\nLluvia 72 h: 46.8 mm\nMínima 72 h: 10.9 °C\nAbrir app Podas Pumalal Pro antes de ejecutar labores.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -21,12 +21,12 @@ DESCRIPTION:🌿 Resumen climático Podas Pumalal
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-147a306727155f00374e@podas
-DTSTAMP:20261115T173632Z
-DTSTART;TZID=America/Santiago:20261115T083000
-DTEND;TZID=America/Santiago:20261115T090000
+UID:pumalal-c6894c2ee3e928dad02c@podas
+DTSTAMP:20261116T205037Z
+DTSTART;TZID=America/Santiago:20261116T083000
+DTEND;TZID=America/Santiago:20261116T090000
 SUMMARY:⚠️ POSTERGAR: sanidad preventiva · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 27.2 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: sanidad preventiva · programa verano húmedo\nFecha base: 15-11-2026\nPrioridad: alta\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 46.8 mm en 72 h\n\nInstrucciones:\nMantener programa preventivo si hay rocío\, riego frecuente o historial fuerte de hongos.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -34,12 +34,12 @@ DESCRIPTION:⚠️ POSTERGAR: sanidad preventiva · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-144d2e220837d215c621@podas
-DTSTAMP:20261115T173632Z
-DTSTART;TZID=America/Santiago:20261115T083000
-DTEND;TZID=America/Santiago:20261115T090000
+UID:pumalal-b2d1a68ac9009b013d0d@podas
+DTSTAMP:20261116T205037Z
+DTSTART;TZID=America/Santiago:20261116T083000
+DTEND;TZID=America/Santiago:20261116T090000
 SUMMARY:⚠️ POSTERGAR: poda · Rosas
-DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 27.2 mm en 72 h\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Rosas (Rosa spp.)\nLabor: poda · mantención\nFecha base: 01-12-2026\nPrioridad: media\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 46.8 mm en 72 h\n\nInstrucciones:\nEliminar flores secas y material enfermo\; mejorar ventilación sin poda fuerte.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
@@ -47,12 +47,12 @@ DESCRIPTION:⚠️ POSTERGAR: poda · Rosas
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:pumalal-8da88bc8d8e9e4f05805@podas
-DTSTAMP:20261115T173632Z
-DTSTART;TZID=America/Santiago:20261115T083000
-DTEND;TZID=America/Santiago:20261115T090000
+UID:pumalal-0c13f4da94e5829ecf55@podas
+DTSTAMP:20261116T205037Z
+DTSTART;TZID=America/Santiago:20261116T083000
+DTEND;TZID=America/Santiago:20261116T090000
 SUMMARY:⚠️ POSTERGAR: poda · Boj / Lonicera nitida
-DESCRIPTION:Especie: Boj / Lonicera nitida (Buxus sempervirens / Lonicera nitida)\nLabor: poda · mantención superficial\nFecha base: 05-01-2027\nPrioridad: baja\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 27.2 mm en 72 h\n\nInstrucciones:\nRecorte de caras exteriores y puntas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
+DESCRIPTION:Especie: Boj / Lonicera nitida (Buxus sempervirens / Lonicera nitida)\nLabor: poda · mantención superficial\nFecha base: 05-01-2027\nPrioridad: baja\nCriterio climático: POSTERGAR — lluvia acumulada prevista: 46.8 mm en 72 h\n\nInstrucciones:\nRecorte de caras exteriores y puntas.\n\nAntes de ejecutar: abrir Podas Pumalal Pro y revisar clima actualizado.
 BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
